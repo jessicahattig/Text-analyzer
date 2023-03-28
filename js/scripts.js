@@ -11,3 +11,14 @@ function wordCounter(text) {
   });
   return wordCount;
 }
+
+// Business Logic
+
+// wordCounter() function omitted for brevity.
+
+function numberOfOccurrencesInText(word, text) {
+  if (word === text) {
+    return 1;
+  }
+  return 0;
+}
